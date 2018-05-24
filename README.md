@@ -6,3 +6,6 @@ if s("ls *").p("xargs rm -rf") {
 	s("echo it worked")
 }
 ```
+```go
+s("ls *").tf("contents.txt")
+```
