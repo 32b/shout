@@ -21,3 +21,6 @@ lines:=s("cat",myVar2).list()
 ```go
 s("curl -s example.com/users/1").c(*user)
 ```
+```go
+s("cat").f(myFilterFunc).p("grep abc")
+```
