@@ -13,5 +13,5 @@ s("ls").tf("contents.txt")
 s(myVar).p("cat")
 ```
 ```go
-s("echo",myVar1,myVar2)
+result:=s("echo",myVar1,myVar2)
 ```
