@@ -7,5 +7,5 @@ if s("ls *").p("xargs rm -rf") {
 }
 ```
 ```go
-s("ls *").tf("contents.txt")
+s("ls").tf("contents.txt")
 ```
