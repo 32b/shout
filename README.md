@@ -13,7 +13,7 @@ s("ls").tf("contents.txt")
 s(myVar).p("cat")
 ```
 ```go
-result:=s("echo",myVar1,myVar2).r()
+result,err:=s("echo",myVar1,myVar2).e()
 ```
 ```go
 lines:=s("cat",myVar2).list()
