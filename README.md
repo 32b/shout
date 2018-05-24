@@ -18,3 +18,6 @@ result:=s("echo",myVar1,myVar2)
 ```go
 lines:=s("cat",myVar2).list()
 ```
+```go
+s("curl -s example.com/users/1").c(*user)
+```
