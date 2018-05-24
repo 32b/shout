@@ -9,3 +9,5 @@ if s("ls *").p("xargs rm -rf") {
 ```go
 s("ls").tf("contents.txt")
 ```
+```go
+s(myVar).p("cat")
