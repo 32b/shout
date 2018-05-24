@@ -2,7 +2,7 @@
 sh[ell]out - a helper for external commands
 
 ```go
-if s("ls *").p("xargs rm -rf") {
+if s("ls *").p("xargs rm -rf").b() {
 	s("echo it worked")
 }
 ```
