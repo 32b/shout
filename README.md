@@ -11,3 +11,7 @@ s("ls").tf("contents.txt")
 ```
 ```go
 s(myVar).p("cat")
+```
+```go
+s("echo",myVar1,myVar2)
+```
