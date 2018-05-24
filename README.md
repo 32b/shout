@@ -15,3 +15,6 @@ s(myVar).p("cat")
 ```go
 result:=s("echo",myVar1,myVar2)
 ```
+```go
+lines:=s("cat",myVar2).list()
+```
