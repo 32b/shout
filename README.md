@@ -22,5 +22,11 @@ lines:=s("cat",myVar2).list()
 s("curl -s example.com/users/1").c(*user)
 ```
 ```go
+myFilterFunc:=func(in string) string {
+	if (in == "bad"){
+		return nil
+	}
+	return in
+}
 s("cat things.txt").f(myFilterFunc).p("grep abc")
 ```
